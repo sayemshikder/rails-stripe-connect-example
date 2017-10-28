@@ -43,9 +43,9 @@ settings in a bunch of files.
 
       if load_config == 'Y'
         config = YAML.load_file( existing_config )['development']
-        client_id = config['stripe_client_id']
-        publishable_key = config['stripe_publishable_key']
-        secret_key = config['stripe_secret_key']
+        client_id = config['ca_BcpqgMVQKjfAHrstUfk4fbSS8ARhSqhG']
+        publishable_key = config['pk_test_n9zEZTdQmF8mBirnhcsrqCoe']
+        secret_key = config['sk_test_K3SOLtas6ckg2njbnAsalKqF']
         puts "Loaded config/secrets.yml\n\n"
       else
         puts
